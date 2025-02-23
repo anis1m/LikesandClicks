@@ -1,0 +1,52 @@
+.choose-us {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 3rem 0;
+}
+
+.choose-us h1 {
+  font-size: 2.5rem;
+}
+
+.choose-us div {
+  width: 90%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 3rem;
+  row-gap: 4rem;
+  margin: 2rem auto;
+}
+
+.choose-us div aside {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.choose-us div aside blockquote {
+  flex-basis: 70%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  text-align: start;
+}
+
+.choose-us div aside blockquote p {
+  font-size: 1.2rem;
+}
+
+.choose-us div aside button i {
+  font-size: 3rem;
+}
+
+.choose-us div aside button {
+  width: 5rem;
+  height: 5rem;
+  background-color: orange;
+  border-radius: 50%;
+  border: 0;
+}
