@@ -5,13 +5,16 @@ import Cards from "./javascript_files/Cards";
 import Footer from "./javascript_files/Footer";
 import Hero from "./javascript_files/Hero";
 import ChooseUs from "./javascript_files/ChooseUs";
+import AboutUs from "./javascript_files/AboutUs";
+import ITServices from "./javascript_files/ITServices";
 
 function App() {
   return (
     <>
       <Navbar />
       <Hero />
-      <Cards />
+      <ITServices />
+      <AboutUs />
       <ChooseUs />
       <Footer />
     </>
