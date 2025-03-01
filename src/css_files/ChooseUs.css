@@ -25,6 +25,9 @@
   display: flex;
   gap: 1rem;
   align-items: center;
+  border: 2px solid #072b2b;
+  padding: 1.5rem;
+  border-radius: 1rem;
 }
 
 .choose-us div aside blockquote {
